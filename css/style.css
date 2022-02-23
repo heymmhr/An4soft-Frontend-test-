@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+body{
+    font-family: 'Amiri', serif;
+    background-color: #EEEEEE;
+ }
+/*----Heading---*/
+header{
+    background-color: #488CD3;
+}
+.nav_img{
+    background-color: #488CD3; 
+    width: 320px;
+    height: 70px;   
+}
+/*------body section----*/
+.body_section{
+    margin-top:1px;
+    background-color: #BBBBBB;
+    border: 1px solid#488CD3 ;
+    height: 100%;
+}
+h2{
+    text-align: center;
+    color:#488CD3;
+    margin: 0%;
+    padding: 0%;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first_column{
+    background-color: #999999;
+    margin: 7px 5px 12px 12px;
+    padding: 0px 0px 10px 10px;
+    width: 75%;   
+}
+.para{
+    font-size: 17px;
+    font-weight: 900;
+    margin: 0%;
+}
+.new{
+    color: red;
+}
+a{
+    color: #008031;
+}
+/*-------------inside box---*/
+.inside_box1{
+    background-color: #D6D6D6;
+    border: 1px solid#488CD3 ;
+    padding: 0px 0px 10px 10px;
+    margin-bottom: 50px;
+    width: 97%;
+}
+.inside_box2{
+    background-color: #D6D6D6;
+    border: 1px solid#488CD3 ;
+    padding: 0px 10px 110px 10px;
+    width: 96%; 
+}
+.small_points{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0%;
+}
+.second_column{
+    background-color: #999999;
+    padding: 10px;
+    margin:50px 12px 50px 0px;
+    width: 25%;
+    border: 1px solid#488CD3 ;
+}
+.form_field{
+    width: 300px;
+    height: 25px;
+}
+.form_field:hover{
+    background-color: #D6D6D6;
+}
+.warning{
+    font-size: 12px;
+    color: red;
+    margin: 0%;
+}
+button{
+    background-color: #488CD3;
+    color:#fff;
+    font-size: 12px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #8abcf1;
+}
+.frg_pass{
+    color: blue;
+    font-size:18px; 
+}
+footer{
+    text-align: end;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
